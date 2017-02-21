@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Comparing the changed files side by side enables you to see the changes stand out and allow you to ascertain which changes were problematic.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having access to change info will make problem solving more efficient than having to review the whole document. Reviewing each individual highlighted change allows you to focus on the problem areas rather than the whole.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    Manually choosing a commit allows you to choose the best and most appropriate time to save your progress - rather than when a timer wakes up and sets things going in whatever version control package you are using. However it does mean you should make certain saves are frequent enough to be useful ie. after completing a single feature, correcting a set of typos, or fixing a single bug.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think multiple file saves would be important to ensure all changed files are saved to ensure no progress is inadvertantly lost due to forgotten edited files being prematurely closed after a shutdown. Some systems would not necessarily need to save multiple files as they would normally onle change one file at a time ie. a leaflet or flyer.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log (run from project repository directory) will list all changes made during the life of the project. Note the id of the commit you want to compare and the one previous to that. you may need to use the arrow keys to scroll through the log. That done you can quit the log (hit 'q') and start git diff. type git diff [previous commit id] [current commit id]. This will highlight the logged changes between versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+    Having the assurance that any changes, however catastrophic, can be reversed would be a bonus. The ability to view each and any revision as a 'snapshot' and treat these as 'before and after' views of code as errors/bugs are introduced would be a great bug hunting tool.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I have a few ideas as to how I can best use this tool. An android front-end for a home automation/security system is on my hit list as well as a reward chart type tracking app.
