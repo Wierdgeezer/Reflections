@@ -17,6 +17,9 @@ How do the diagrams help you visualize the branch structure?
 	branch diagrams help to show at which point development diverges from the main (master path) for such things as bug fixes, new features etc.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-	Merge causes the the two specified branches to combine into a new one, replacing the currentky checked out path by default. the branches are merged by interleaving commits from both branches in order of date.
+	Merge causes the the two specified branches to combine into a new one, replacing the currently checked out path by default. the branches are merged by interleaving commits from both branches in order of date.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merging is a lot quicker, using each commit on each branch to build a new set of files, interleaving each relevant commit by date. This won't always work where common text fragments have been modified on both branches. In this instance git will throw a merge error wgich will have to be manually resolved, possibly, with the participation of the other branch's contributor.
+
+	Manual merges will not have the speed benefits of an automatic merge. There is also a high risk of introducing new errors while merging code. The resolution of these will also severely impact completion time.
