@@ -9,7 +9,11 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+   A fork is a snapshot copy of a repository. Any commits added to your fork will not be added to the original repository. Likewise any changes to the original repository will not be copied across to your fork.
+
+   A clone is also a snapshot copy of a repository. However any commits added to your clone will be added to the original repository by means of git push. Likewise any changes to the original repository will be copied across to your clone following git merge.
+
+   A branch is a developmental path change or deviation. Any commits added to your branch will not be added to the original master branch unless they are specifically merged. Likewise any changes to the original master branch will not be copied across to your new branch unless you choose to merge.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
