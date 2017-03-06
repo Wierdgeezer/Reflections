@@ -21,7 +21,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    Without github, collaboration would be possible using email, messenger and the good old telephone as well as a local copy of your document (a doc shared on a server woudn't be feasible as saved edits would likely obliterate, or be obliterated by, another contributor's save). Modifications and enhancements would suffer as there would be no easy way to tell if your changes would negatively impact other contributor efforts. Consolidating all contributors efforts into one final version would be a major undertaking even if there were only a small number of streams to merge.
+    As for advantages, I can't think of any!
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
