@@ -26,4 +26,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It would be advantageous to make changes to a document in a separate branch as you would be assured that any changes would not impact a live project until it was tested, verified and approved.
+
+    Changes to a live branch would only be advantageous where a failure is known to be caused by an external influence ie. an external resource changing causing a link to break. 
